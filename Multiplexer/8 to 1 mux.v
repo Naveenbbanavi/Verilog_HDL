@@ -5,14 +5,14 @@ module _4x1_multiplexer(y, i, s);
 	output reg y;
 case(s)
 begin
- 2'b000:y=i0;
- 2'b001:y=i1;
- 2'b010:y=i2;
- 2'b011:y=i3;
-  2'b100:y=i4;
-  2'b101:y=i5;
-  2'b110:y=i6;
-  2'b111:y=i7;
+ 3'b000:y=i0;
+ 3'b001:y=i1;
+ 3'b010:y=i2;
+ 3'b011:y=i3;
+  3'b100:y=i4;
+  3'b101:y=i5;
+  3'b110:y=i6;
+  3'b111:y=i7;
 end
 endcase
 
