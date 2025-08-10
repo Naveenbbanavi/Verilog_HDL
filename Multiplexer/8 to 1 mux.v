@@ -1,4 +1,4 @@
-module _4x1_multiplexer(y, i, s);
+module _8x1_multiplexer(y, i, s);
 	
   input [0:7] i; // input line
   input [2:0]s; // select line
